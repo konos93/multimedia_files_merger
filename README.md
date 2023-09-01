@@ -3,7 +3,7 @@ merge multiple mp3 using python and ffmpeg
 
 How to Use
 
-    Upon running the script, a GUI window will appear for file selection.
+   Upon running the script, a GUI window will appear for file selection.
     Select one or more audio files that you want to concatenate. You can select files of any format.
     Click the "Open" button to confirm your selection.
     The script will concatenate the selected audio files into a single MP3 file named output.mp3.
