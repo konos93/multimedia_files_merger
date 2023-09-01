@@ -2,7 +2,7 @@
 merge multiple mp3 using python and ffmpeg
 
 Why i build that ?
-because for an audio book with 20 parts od 20 mb with 1 hour each one audacity to load , merge and export needs 40 min for my old laptop with this stuff here needs 1 min 
+because for an audio book with 20 parts of 20 mb with 1 hour each one audacity to load , merge and export needs 40 min for my old laptop with this stuff here needs 1 min 
 ffmpeg is cool
 
 How to Use
@@ -16,4 +16,4 @@ How to Use
 
 Notes
     If you encounter any issues, ensure that FFmpeg is correctly installed and available in your system's PATH. or have in the same folder with the merger.py ffmpeg for windows
-    use bulkrename utility or any similar program to keep the increased 
+    use bulkrename utility or any similar program to keep the names of the files in a pecific potition for the copined file
