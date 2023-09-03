@@ -14,20 +14,19 @@ file_paths = filedialog.askopenfilenames(title="Select files", filetypes=[("All 
 if not file_paths:
     print("No files selected. Exiting.")
 else:
-    # Extract filenames from full paths and save them to selected_files.txt
+    # Save absolute file paths to selected_files.txt
     with open('selected_files.txt', 'w') as file:
         for file_path in file_paths:
-            filename = os.path.basename(file_path)
-            file.write(f'file \'{filename}\'\n')
+            file.write(f'file \'{os.path.abspath(file_path)}\'\n')
 
-    print('Selected file names have been saved to selected_files.txt')
+    print('Selected file paths have been saved to selected_files.txt')
 
     # Define the FFmpeg command as a list of arguments
     ffmpeg_command = [
         'ffmpeg',
         '-f', 'concat',
         '-safe', '0',
-        '-i', os.path.abspath('selected_files.txt'),  # Use os.path.abspath to get the full path
+        '-i', 'selected_files.txt',
         '-c', 'copy',
         'output.mp3'
     ]
@@ -38,11 +37,13 @@ else:
     else:
         # Execute the FFmpeg command
         subprocess.run(ffmpeg_command)
-        print("Concatenation completed.")
 
-    # Delete the selected_files.txt file
+ 
+ # Delete the selected_files.txt file
     try:
         os.remove('selected_files.txt')
-        print("selected_files.txt deleted.")
+       # print("selected_files.txt deleted.")
     except OSError as e:
         print(f"Error deleting selected_files.txt: {e}")
+
+print("Concatenation completed.")
