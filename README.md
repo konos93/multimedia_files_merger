@@ -19,5 +19,5 @@ Notes
    If you encounter any issues, ensure that FFmpeg is correctly installed and available in your system's PATH. or have in the same folder with the merger.py ffmpeg for windows
     use bulkrename utility or any similar program to keep the names of the files in a pecific potition for the copined file
 
-   use only english characters  in pathfiles due to ffpeg cant read other like 
+   use only english characters  in pathfiles due to ffpeg cant read others. like 
 C:\Users\konos93\Downloads\Music\newdold
