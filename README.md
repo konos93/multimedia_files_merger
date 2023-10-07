@@ -11,8 +11,8 @@ How to Use
 2 options 
 1 install python and all the depedencies this script needs 
 2 have on the same folder ffmpeg.exe and merger.exe .u cannot have ffmpeg.exe on the same folder if u install it in your system here are some instructions https://www.youtube.com/watch?v=r1AtmY-RMyQ
-  
-
+merger exe is merger.py with [pyinstaller  
+](https://pypi.org/project/auto-py-to-exe/)
  Upon running the script, a GUI window will appear for file selection.
     Select one or more audio files that you want to concatenate. You can select files of any format.
     Click the "Open" button to confirm your selection.
