@@ -5,9 +5,15 @@ Why i build that ?
 because for an audio book with 20 parts of 20 mb with 1 hour each one audacity to load , merge and export needs 40 min for my old laptop with this stuff here needs 1 min 
 ffmpeg is cool
 
+
 How to Use
 
-   Upon running the script, a GUI window will appear for file selection.
+2 options 
+1 install python and all the depedencies this script needs 
+2 have on the same folder ffmpeg.exe and merger.exe .u cannot have ffmpeg.exe on the same folder if u install it in your system here are some instructions https://www.youtube.com/watch?v=r1AtmY-RMyQ
+  
+
+ Upon running the script, a GUI window will appear for file selection.
     Select one or more audio files that you want to concatenate. You can select files of any format.
     Click the "Open" button to confirm your selection.
     The script will concatenate the selected audio files into a single MP3 file named output.mp3.
