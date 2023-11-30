@@ -1,8 +1,8 @@
-# mp3_merger
-merge multiple mp3 using python and ffmpeg
+# multimedia_files_merger
+merge multiple multimedia_files using python and ffmpeg , the multimedia_files should be the same file
 
 Why i build that ?
-because for an audio book with 20 parts of 20 mb with 1 hour each one audacity to load , merge and export needs 40 min for my old laptop with this stuff here needs 1 min 
+because for an audio book or video with 20 parts of 20 mb with 1 hour each one audacity to load , merge and export needs 40 min for my old laptop with this stuff here needs 1 min 
 ffmpeg is cool
 
 
