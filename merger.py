@@ -31,7 +31,7 @@ def concatenate_files(file_paths, output_file):
     else:
         # Execute the FFmpeg command
         subprocess.run(ffmpeg_command)
-'''
+
     # Delete the selected_files.txt file
     try:
         os.remove('selected_files.txt')
@@ -39,7 +39,7 @@ def concatenate_files(file_paths, output_file):
         print(f"Error deleting selected_files.txt: {e}")
 
     print("Concatenation completed. Output file:", output_file)
-'''
+
 def main():
     # Create a GUI window for file selection
     root = tk.Tk()
